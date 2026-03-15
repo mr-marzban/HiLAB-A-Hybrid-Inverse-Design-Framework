@@ -1,0 +1,14 @@
+# Core
+numpy>=1.21.0
+matplotlib>=3.4.0
+tqdm>=4.62.0
+
+# Deep learning
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Transformers (ViT backbone)
+transformers>=4.20.0
+
+# Testing
+pytest>=7.0.0
