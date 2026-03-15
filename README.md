@@ -41,7 +41,7 @@ Early-Stopped TO Library  →  ViT-VAE Latent Space  →  Bayesian Search  →  
 ## Installation
 
 ```bash
-git clone https://github.com/MR-MZN/HiLAB.git
+git clone https://github.com/MR-MZN/HiLAB-A-Hybrid-Inverse-Design-Framework.git
 cd HiLAB
 pip install -r requirements.txt
 ```
