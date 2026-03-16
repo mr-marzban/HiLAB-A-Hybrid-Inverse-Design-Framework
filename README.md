@@ -30,7 +30,21 @@ Early-Stopped TO Library  →  ViT-VAE Latent Space  →  Bayesian Search  →  
 
 ## Sample Results
 
-*Optimized device patterns and FoM convergence across R/G/B wavelengths:*
+### VAE Reconstruction Validation
+
+*Original structures (a), their 8-dimensional latent representations (b), reconstructions (c), and pixel-wise reconstruction error (d):*
+
+![VAE Reconstruction](sample_figs_demo/Fig_2.PNG)
+
+### Latent Space Exploration
+
+*Sweeping individual latent dimensions (−2 → +2) while keeping others fixed reveals smooth, meaningful variation in generated device patterns:*
+
+![Latent Space Variations](sample_figs_demo/Fig_4.PNG)
+
+### Optimizer Convergence
+
+*Device patterns and FoM convergence across R/G/B wavelengths for two optimized samples:*
 
 ![Sample 35](sample_figs_demo/sample35_FoM.png)
 
@@ -41,8 +55,8 @@ Early-Stopped TO Library  →  ViT-VAE Latent Space  →  Bayesian Search  →  
 ## Installation
 
 ```bash
-git clone https://github.com/MR-MZN/HiLAB-A-Hybrid-Inverse-Design-Framework.git
-cd HiLAB
+git clone https://github.com/mr-marzban/HiLAB-A-Hybrid-Inverse-Design-Framework.git
+cd HiLAB-A-Hybrid-Inverse-Design-Framework
 pip install -r requirements.txt
 ```
 
@@ -106,7 +120,7 @@ results, curves = sweep_thaw_depths_with_loaders(
 )
 ```
 
-
+---
 
 ## Citation
 
@@ -137,5 +151,5 @@ MIT — see [LICENSE](LICENSE) for details.
 ## Contact
 
 - **Author**: Reza Marzban
-- **GitHub**: [@MR-MZN](https://github.com/MR-MZN)
+- **GitHub**: [@mr-marzban](https://github.com/mr-marzban)
 - **Paper**: [https://doi.org/10.1002/smtd.202500975](https://doi.org/10.1002/smtd.202500975)
